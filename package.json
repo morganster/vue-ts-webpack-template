@@ -1,0 +1,47 @@
+{
+  "name": "vue-ts-webpack-template",
+  "version": "1.0.0",
+  "description": "this is a template to start a project in vuejs with  webpack and typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --inline --env=dev --config ./webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://morganster@github.com/morganster/vue-ts-webpack-template.git"
+  },
+  "keywords": [
+    "vuejs",
+    "webpack",
+    "typescript"
+  ],
+  "author": "Carlos Eduardo Jaramillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morganster/vue-ts-webpack-template/issues"
+  },
+  "homepage": "https://github.com/morganster/vue-ts-webpack-template#readme",
+  "dependencies": {
+    "vue": "^2.5.2",
+    "vue-class-component": "^6.0.0",
+    "vue-template-compiler": "^2.5.2"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.2.0",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.5",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "ts-loader": "^3.1.0",
+    "tslint": "^5.8.0",
+    "tslint-loader": "^3.5.3",
+    "typescript": "^2.5.3",
+    "url-loader": "^0.6.2",
+    "vue-loader": "^13.3.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
+  }
+}
