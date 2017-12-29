@@ -8,5 +8,5 @@
   </div>
 </template>
 
-<script lang="ts" src="./home.ts"></script>
-<style lang="scss" src="./home.scss" scoped></style>
+<script lang="ts" src="./page2.ts"></script>
+<style lang="scss" src="./page2.scss" scoped></style>

@@ -2,9 +2,9 @@ import Vue from 'vue'
 import Component from 'vue-class-component'
 @Component({
 })
-export default class Home extends Vue {
-    name: string = "home";
+export default class Page2 extends Vue {
+    name: string = "page2";
   mounted() {
   }
 }
-Vue.component('home', Home);
+Vue.component('page2', Page2);

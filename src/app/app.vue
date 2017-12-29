@@ -3,9 +3,12 @@
   <div>
     <h1>{{helloMsg}}</h1>
     <button v-on:click="greet()">change greeting</button>
+    <router-link to="/page1">page1</router-link>
+    <router-link to="/page2">page2</router-link>
     <div>
-      <home id="home"></home>
+      this is app
     </div>
+            <router-view></router-view>
   </div>
 </template>
 
